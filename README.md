@@ -1,13 +1,13 @@
 # SI_2025_lab2_236056
 
-2. 
+#2. 
 # Za checkCart CFG
 dot -Tpng checkCart.dot -o checkCart.png
 git add checkCart.png
 git commit -m "Add checkCart Control Flow Graph"
 git push origin main
 
-3.
+#3.
 # Ciklomatska kompleksnost
 M = V - N + 2P
 V = 19
@@ -16,7 +16,7 @@ P = 1
 M = 19 - 18 + 2(1)
 M = 3
 
-4.
+#4.
 # Every statement criteria
 Start →
 if allItems == null? → no →
@@ -51,7 +51,7 @@ for each char →
 if char allowed? → no →
 throw Exception
 
-5.
+#5.
 Min broj test slucai spored Multiple Condition se 8 za uslovot if (item.getPrice() > 300 || item.getDiscount() > 0 || item.getQuantity() > 10)
 
 Bidejki uslovot e forma A ili B ili C so vistinitosna tabla se dobivaat 8 kombinacii
